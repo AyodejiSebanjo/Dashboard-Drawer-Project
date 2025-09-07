@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Drawer Project</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <!--DASHBOARD SECTION-->
+    <section class="dashboard">
+
+        <!--LEFTCANVAS OF THE DASHBOARD-->
+        <div class="leftcanvas">
+
+
+        </div>
+
+        <!--DRAWER SECTION-->
+        <div class="drawer-section">
+
+            <!--BLUE AREA-->
+            <div class="blue-canvas-section">
+                <div class="title-section">
+                    <p>New project</p>
+                    <i class="fa-solid fa-x"></i></i>
+                </div>
+                <div class="title-section-text"><p>Get started by filling in the information below to create your  new project.</p></div>
+            </div>
+
+
+            <!--TOP FORM-->
+            <form action="">
+                <div class="project-name-input">
+                    <label for="projectName">
+                        Project name
+                    </label>
+                    <input type="text">
+                </div>
+                <div class="description-input">
+                    <label for="description">Description</label>
+                    <textarea name="description" id="description"></textarea>
+                </div>
+                
+            </form>
+
+            <!--TEAM MEMBERS-->
+            <div class="team-members-section">
+                <div> <p>Team members </p></div>
+                <div class="avatar">
+                    <div class="user-avatar">
+                        <img src="./images/avatar 1.png" alt="user-avatar-1">
+                    </div>
+                    <div class="user-avatar">
+                        <img src="./images/avatar 2.png" alt="user-avatar-1">
+                    </div>
+                    <div class="user-avatar">
+                        <img src="./images/avatar 3.png" alt="user-avatar-1">
+                    </div>
+                    <div class="user-avatar">
+                        <img src="./images/avatar 4.png" alt="user-avatar-1">
+                    </div>
+                    <div class="user-avatar">
+                        <img src="./images/avatar 5.png" alt="user-avatar-1">
+                    </div>
+                    <div class="add-user-icon">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--PRIVACY SECTION-->
+            <div class="privacy-section">
+                <div><h4>Privacy</h4></div>
+                <div class="type-of-access-container">
+                    <input type="radio" name="access" id="public" checked> 
+                    <div class="access-info">
+                        <p class="access-info-title">Public access</p>
+                        <p>Everyone with the link will see this project</p>
+                    </div>
+                </div>
+
+
+                <div class="type-of-access-container">
+                    <input type="radio" name="access" id="private-to-members" checked> 
+                    <div class="access-info">
+                        <p class="access-info-title">Private to project members</p>
+                        <p>Only members of this project would be able to access.</p>
+                    </div>
+                </div>
+
+
+                <div class="type-of-access-container">
+                    <input type="radio" name="access" id="private-to-you" checked> 
+                    <div class="access-info">
+                        <p class="access-info-title">Private to you</p>
+                        <p>You are the only one able to access this project.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--LINE BREAK-->
+            <div class="stroke">
+                <hr>
+            </div>
+
+
+            <!--LINKS-->
+            <div class="text-link-1">
+               <i class="fa-solid fa-link"></i> <div><p>Copy link</p></div>
+            </div>
+            <div class="text-link-2">
+                <i class="fa-solid fa-circle-question"></i><div><p>Learn more about sharing</p></div>
+            </div>
+
+
+             <!--LINE BREAK-->
+            <div class="stroke">
+                <hr>
+            </div>
+
+            <!--BUTTONS-->
+            <div class="button-container">
+
+                <button class="secondary-button"> Cancel </button>
+                <button class="primary-button">Save</button>
+
+            </div>
+
+
+        </div>
+
+    </section>
+    
+</body>
+</html>
